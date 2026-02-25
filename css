@@ -1,0 +1,24 @@
+/* Calculator container */
+.calculator {
+  width: 200px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Buttons for operations */
+button {
+  width: 80px;
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Different colors for each operation */
+.add { background-color: #4CAF50; color: white; }       /* Green */
+.subtract { background-color: #f44336; color: white; } /* Red */
+.multiply { background-color: #2196F3; color: white; } /* Blue */
+.divide { background-color: #ff9800; color: white; }   /* Orange */
